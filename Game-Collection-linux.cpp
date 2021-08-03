@@ -110,7 +110,7 @@ void guesshistory(vector<int>data) {
         }
     }
 
-    int best_score = 9999;
+    int best_score;
     ifstream input("score_for_GameColl.txt");
 
     input >> best_score;
